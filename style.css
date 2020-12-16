@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text:ital@1&family=Playfair+Display:wght@500&display=swap');
+html.france {
+  background-image: url('eiffel-tower.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.textblock {
+  background-color: rgba(182, 187, 245, 0.541);
+  margin-right: 50%;
+  padding: 10px;
+}
+html.england {
+  background-image: url('london-eye.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+html.ireland {
+  background-image: url('ireland.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+html.greece {
+  background-image: url('santorini.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+h1 {
+  font-family: "Abril Fatface", fantasy;
+  color: rgb(57, 59, 83);
+  font-size: 33px;
+}
+h2 {
+  font-family: "Crimson Text", serif;
+  color: rgb(14, 83, 63);
+  font-size: 24px;
+}
+p {
+  font-family: "Playfair Display", serif;
+}
+a:link {
+  color: rgb(1, 20, 14);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(20, 2, 31);
+}
+a:hover {
+  color: rgb(1, 66, 47);
+  text-decoration: underline;
+  box-shadow: 0 0 3px 3px rgb(1, 66, 47);
+}
+a.current {
+  color: rgb(77, 83, 83);
+}
+a:active {
+  color: rgb(86, 0, 97);
+  box-shadow: 0 0 3px 3px rgb(86, 0, 97);
+  text-decoration: underline;
+}
+li {
+  margin-bottom: 10px;
+}
+nav {
+  font-family: "Playfair Display", serif;
+}
